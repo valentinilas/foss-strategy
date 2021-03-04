@@ -1,0 +1,55 @@
+.auditorium-area {
+    position: relative;
+}
+
+#auditorium-screen {
+    position: absolute;
+    top: 15.5%;
+    left: 25%;
+    width: 50%;
+    height: auto;
+    z-index: 2;
+    transition: 0.6s opacity ease;
+}
+
+#auditorium-screen.inactive {
+    opacity: 0;
+    pointer-events: none;
+    user-select: none;
+}
+
+#auditorium-screen video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+#auditorium-screen video.visible {
+    display: block;
+}
+
+.auditorium-nav {
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
+    opacity: 0;
+}
+
+.auditorium-nav.active {
+    animation-name: fadeInDelayed;
+    animation-duration: 1s;
+    animation-delay: 0.6s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInDelayed {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1
+    }
+}

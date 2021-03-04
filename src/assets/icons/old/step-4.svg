@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 256 256" style="enable-background:new 0 0 256 256;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;}
+</style>
+<g>
+	<rect x="52.81" y="60.01" class="st0" width="130.56" height="153.31"/>
+	<polygon class="st0" points="160.62,19.56 75.54,19.56 52.81,45.84 183.36,45.84 	"/>
+	<rect x="45.33" y="45.84" class="st0" width="145.5" height="14.16"/>
+	<rect x="45.33" y="213.32" class="st0" width="145.5" height="14.16"/>
+	<rect x="104.24" y="7.66" class="st0" width="27.69" height="11.91"/>
+	<g>
+		<rect x="64.46" y="227.48" class="st0" width="14.95" height="20.86"/>
+		<rect x="156.77" y="227.48" class="st0" width="14.95" height="20.86"/>
+	</g>
+	<circle class="st0" cx="118.47" cy="83.5" r="9.95"/>
+	<circle class="st0" cx="118.47" cy="111.98" r="9.95"/>
+	<circle class="st0" cx="118.47" cy="170.07" r="9.95"/>
+	<g>
+		
+			<rect x="108.52" y="117.26" transform="matrix(4.498186e-11 -1 1 4.498186e-11 -22.9133 259.8549)" class="st0" width="19.9" height="48.25"/>
+		<g>
+			
+				<rect x="99.9" y="137.92" transform="matrix(4.440277e-11 -1 1 4.440277e-11 -38.0182 245.5151)" class="st0" width="7.7" height="7.7"/>
+			
+				<rect x="114.62" y="137.92" transform="matrix(4.440277e-11 -1 1 4.440277e-11 -23.2959 260.2375)" class="st0" width="7.7" height="7.7"/>
+			
+				<rect x="129.34" y="137.92" transform="matrix(4.393026e-11 -1 1 4.393026e-11 -8.5736 274.9598)" class="st0" width="7.7" height="7.7"/>
+		</g>
+	</g>
+	<polygon class="st0" points="183.36,173.32 183.36,190 200.89,190 200.89,199.78 210.67,199.78 210.67,190 210.67,177.59 	"/>
+	<line class="st0" x1="183.36" y1="45.84" x2="160.62" y2="19.56"/>
+	<polygon class="st0" points="184.6,31.4 171.52,16.29 164.24,23.57 177.32,38.68 	"/>
+	<line class="st0" x1="65.92" y1="32.7" x2="131.2" y2="32.7"/>
+	<line class="st0" x1="52.81" y1="200.89" x2="118.08" y2="200.89"/>
+</g>
+</svg>

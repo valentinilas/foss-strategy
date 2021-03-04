@@ -1,0 +1,91 @@
+.map-zones {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff;
+}
+
+.map-zones__regions {
+    width: 66.66%;
+    position: relative;
+}
+
+.map-zones__operations {
+    width: 33.33%;
+}
+
+.map-zones__buttons {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+}
+
+.map-zones h2 {
+    font-size: 4rem;
+    color: #002858;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.in-page-link--na {
+    top: 35%;
+    left: 24%;
+}
+
+.in-page-link--asia {
+    top: 50%;
+    right: 20%;
+}
+
+.in-page-link--china {
+    top: 35%;
+    right: 30%;
+}
+
+.in-page-link--emea {
+    top: 35%;
+    right: 45%;
+}
+
+.in-page-link--india {
+    top: 50%;
+    right: 35%;
+}
+
+.in-page-link--lat {
+    top: 60%;
+    left: 30%;
+}
+
+.in-page-link--pac {
+    top: 70%;
+    right: 20%;
+}
+
+.map-zones__buttons {
+    opacity: 0;
+}
+
+.map-zones.active .map-zones__buttons {
+    animation-name: fadeInDelayed;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInDelayed {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1
+    }
+}
