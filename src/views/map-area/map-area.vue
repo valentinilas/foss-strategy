@@ -77,8 +77,7 @@
           <source src="../../assets/videos/map.mp4" type="video/mp4" />
         </video>
         <audio id="audio-map" autoplay preload>
-          <source src="../../assets/sounds/world-map.wav" type="audio/wav" />
-          Your browser does not support the audio element.
+          <source src="../../assets/sounds/world-map.mp3" type="audio/mp3" />
         </audio>
       </div>
       <div class="map-zones__operations">

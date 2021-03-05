@@ -60,8 +60,7 @@
         <source src="../../assets/videos/auditorium.mp4" type="video/mp4" />
       </video>
       <audio id="audio" autoplay preload>
-        <source src="../../assets/sounds/auditorium.wav" type="audio/wav" />
-        Your browser does not support the audio element.
+        <source src="../../assets/sounds/auditorium.mp3" type="audio/mp3" />
       </audio>
     </div>
   </transition>
