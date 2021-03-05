@@ -22,27 +22,27 @@ export default {
       selectedItem: 0,
       items: [
         {
-          id: 0,
+          id: 10,
           name: "Finance & Compliance Strategy",
         },
         {
-          id: 1,
+          id: 12,
           name: "Innovation & Marketing",
         },
         {
-          id: 2,
+          id: 11,
           name: "HR Smart Analytics Strategy",
         },
         {
-          id: 3,
+          id: 13,
           name: "IT Strategy",
         },
         {
-          id: 4,
+          id: 14,
           name: "Production & Supply Chain Strategy",
         },
         {
-          id: 5,
+          id: 15,
           name: "Service & Global Quality Strategy",
         },
       ],
@@ -73,10 +73,22 @@ export default {
   background: none;
   text-align: left;
   font-size: 2rem;
-  padding: 0.75rem 0 0.75rem 4rem;
+  padding: 0.75rem 0 0.75rem 3rem;
+  display: flex;
+  flex-direction: row;
+  align-items:center;
 }
 .operations__item button:hover {
   color: #f48d27;
-  
+}
+.operations__item button::before {
+  content: "";
+  width: 1.5rem;
+  height: 1.5rem;
+  /* display:block; */
+  border-radius: 50%;
+  margin-right: 0.5rem;
+  background-color: #f48d27;
+  animation: pulseOrange 2s infinite;
 }
 </style>

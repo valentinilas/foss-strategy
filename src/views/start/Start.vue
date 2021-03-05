@@ -4,7 +4,7 @@
     <div class="start-page__intro-block fade-in">
       
       <h1><span>FOSS Strategy 2021-2023</span><span>Smart Analytics</span><span>Predictable Quality and Insights</span></h1>
-       <router-link class="start-page__begin "  to="/segment-area">
+       <router-link class="start-page__begin "  to="/intro">
          <div class="start-page__begin__wrapper">
              <div class="start-page__begin__text">ENTER</div>
          </div>

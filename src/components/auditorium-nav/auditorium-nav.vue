@@ -31,11 +31,11 @@ export default {
         },
         {
           id: 3,
-          name: "Talent Leadership",
+          name: "Talent & Leadership",
         },
         {
           id: 4,
-          name: "Tools Process",
+          name: "Tools & Processes",
         },
       ],
     };

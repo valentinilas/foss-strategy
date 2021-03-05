@@ -59,11 +59,15 @@
       >
         <source src="../../assets/videos/auditorium.mp4" type="video/mp4" />
       </video>
+      <audio id="audio" autoplay preload>
+        <source src="../../assets/sounds/auditorium.wav" type="audio/wav" />
+        Your browser does not support the audio element.
+      </audio>
     </div>
   </transition>
 </template>
 
-<style lang="scss" src="./auditorium-area.scss"></style>
+<style lang="scss"  src="./auditorium-area.scss"></style>
 
 <script>
 import auditoriumNav from "../../components/auditorium-nav/auditorium-nav";
@@ -74,6 +78,14 @@ export default {
   },
 
   mounted() {
+    // Audio
+    const audio = document.getElementById("audio");
+    audio.addEventListener("ended", () => {
+      audio.pause();
+      audio.currentTime = 0;
+    });
+
+    // Video
     const bgVideo = document.getElementById("auditorium-area");
     const screen = document.getElementById("auditorium-screen");
     const firstVideo = document.querySelector('video[data-video="0"]');
@@ -83,16 +95,27 @@ export default {
     function loadFirstVideo() {
       var currentTime = bgVideo.currentTime;
       var watchPoint = Math.floor((currentTime / bgVideo.duration) * 100);
-      if (watchPoint > 60) {
+      if (watchPoint > 90) {
         screen.classList.remove("inactive");
         nav.classList.remove("inactive");
         nav.classList.add("active");
-        firstVideo.play();
+        firstVideo.currentTime = 0.2;
         bgVideo.removeEventListener("timeupdate", loadFirstVideo);
       }
     }
     bgVideo.addEventListener("ended", function () {
       screen.classList.remove("inactive");
+    });
+    // Screen Videos
+    const screenVideos = document.querySelectorAll("#auditorium-screen video");
+    screenVideos.forEach((video) => {
+      video.addEventListener("ended", () => {
+        video.pause();
+        video.currentTime = 0;
+      });
+      video.addEventListener("play", () => {
+        audio.pause();
+      });
     });
 
     // bgVideo.play();

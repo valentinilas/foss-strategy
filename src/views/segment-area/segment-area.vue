@@ -51,17 +51,24 @@
         </div>
       </router-link>
       <!-- Auditorium -->
-      <router-link class="in-page-link in-page-link--auditorium" to="/auditorium-area">
-        <div class="in-page-link__wrapper">
-          <div class="in-page-link__icon"></div>
-          <div class="in-page-link__text">Auditorium</div>
+      <router-link class="invisible-in-page-link invisible-in-page-link--auditorium" to="/auditorium-area">
+        <div class="invisible-in-page-link__wrapper">
+          <!-- <div class="invisible-in-page-link__icon"></div> -->
+          <!-- <div class="invisible-in-page-link__text">Auditorium</div> -->
         </div>
       </router-link>
       <!-- Map -->
-      <router-link class="in-page-link in-page-link--map" to="/map-area">
+      <router-link class="invisible-in-page-link invisible-in-page-link--map" to="/map-area">
+        <div class="invisible-in-page-link__wrapper">
+          <!-- <div class="invisible-in-page-link__icon"></div> -->
+          <!-- <div class="invisible-in-page-link__text">map</div> -->
+        </div>
+      </router-link>
+            <!-- Intro -->
+      <router-link class="in-page-link in-page-link--intro" to="/intro">
         <div class="in-page-link__wrapper">
           <div class="in-page-link__icon"></div>
-          <div class="in-page-link__text">map</div>
+          <div class="in-page-link__text">Welcome</div>
         </div>
       </router-link>
       <video

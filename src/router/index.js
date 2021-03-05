@@ -16,6 +16,8 @@ import segmentGrain from '../views/segment-grain/segment-grain.vue'
 import auditoriumArea from '../views/auditorium-area/auditorium-area.vue'
 import mapArea from '../views/map-area/map-area.vue'
 
+import intro from '../views/intro/intro.vue'
+
 Vue.use(VueRouter)
 
 const routes = [{
@@ -27,6 +29,11 @@ const routes = [{
         path: '/segment-area',
         name: 'segment-area',
         component: segmentArea
+    },
+    {
+        path: '/intro',
+        name: 'intro',
+        component: intro
     },
     {
         path: '/auditorium-area',
