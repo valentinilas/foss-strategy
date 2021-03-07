@@ -14,6 +14,7 @@
           data-video="0"
           class="visible"
           src="../../assets/videos/customer-engagement.mp4"
+          poster="../../assets/images/placeholder.jpg"
           preload
           controls
           disablePictureInPicture
@@ -21,6 +22,7 @@
         <video
           data-video="1"
           src="../../assets/videos/innovation-leadership.mp4"
+          poster="../../assets/images/placeholder.jpg"
           preload
           controls
           disablePictureInPicture
@@ -28,6 +30,7 @@
         <video
           data-video="2"
           src="../../assets/videos/sustainability.mp4"
+          poster="../../assets/images/placeholder.jpg"
           preload
           controls
           disablePictureInPicture
@@ -35,6 +38,7 @@
         <video
           data-video="3"
           src="../../assets/videos/talent-leadership.mp4"
+          poster="../../assets/images/placeholder.jpg"
           preload
           controls
           disablePictureInPicture
@@ -42,6 +46,7 @@
         <video
           data-video="4"
           src="../../assets/videos/tools-processes.mp4"
+          poster="../../assets/images/placeholder.jpg"
           preload
           controls
           disablePictureInPicture
@@ -87,7 +92,7 @@ export default {
     // Video
     const bgVideo = document.getElementById("auditorium-area");
     const screen = document.getElementById("auditorium-screen");
-    const firstVideo = document.querySelector('video[data-video="0"]');
+    // const firstVideo = document.querySelector('video[data-video="0"]');
     const nav = document.querySelector(".auditorium-nav");
 
     bgVideo.addEventListener("timeupdate", loadFirstVideo);
@@ -98,7 +103,7 @@ export default {
         screen.classList.remove("inactive");
         nav.classList.remove("inactive");
         nav.classList.add("active");
-        firstVideo.currentTime = 0.2;
+        // firstVideo.currentTime = 0.2;
         bgVideo.removeEventListener("timeupdate", loadFirstVideo);
       }
     }

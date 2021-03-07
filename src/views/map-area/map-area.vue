@@ -200,6 +200,7 @@ export default {
   mounted() {
     // Audio
     const audio = document.getElementById("audio-map");
+    audio.volume = 0.8;
     audio.addEventListener("ended", () => {
       audio.pause();
       audio.currentTime = 0;
